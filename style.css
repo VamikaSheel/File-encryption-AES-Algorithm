@@ -1,0 +1,73 @@
+body {
+    background-color: #ffffff;
+}
+
+.btn {
+    background-color: #a15eb6;
+    border: #a15eb6;
+}
+.btn:hover {
+    background-color: #562b63;
+}
+
+.btn[disabled]
+{
+    background-color: #504154;
+}
+
+.btn:active:hover {
+    background-color:#32193a;
+}
+
+a {
+    color: #7d169c;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.top {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h1 {
+    margin: 50px;
+}
+
+.divTableCell {
+    margin-bottom: 30px;
+}
+
+#divEncryptfile, #divDecryptfile {
+    margin-top: 50px;
+    width: 700px;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #e8bff5;
+}
+
+.fieldLabel {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form {
+    margin-bottom: 10px;
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 0px auto;
+}
+
+#btnDecrypt, #btnEncrypt {
+    width: 100%;
+    margin-top: 50px;
+}
+
+input[type="password"] {
+    width: 100%;
+}
